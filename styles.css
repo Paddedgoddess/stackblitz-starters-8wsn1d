@@ -1,3 +1,53 @@
 body {
   background-color: blanchedalmond;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sections {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 55vh;
+  width: 40vw;
+  background-color: tan;
+  text-align: center;
+}
+
+.sectionName {
+
+}
+
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.divButton {
+  width: inherit;
+display: flex;
+justify-content: space-between;
+
+}
+
+.sectionEmail {
+
+}
+
+.sectionPhone {
+ 
+}
+
+.sectionThanks {
+
 }

@@ -14,13 +14,66 @@
   <body>
     <main>
       <form>
-        <section id="sectionName"></section>
+        <section class="section " name="sectionName" id="sectionName">
+          <div class="sectionName sections">
+          <div aria-hidden="true"></div>
 
-        <section id="sectionEmail"></section>
+          <div class="inputContainer">
+          <label for="inputName">Submit your name</label>
+          <input type="text" name="inputName" id="step1" placeholder="John Smith">
+        </div>
 
-        <section id="sectionPhone"></section>
+          <div class="divButton">
+            <div aria-hidden="true"></div>
+          <button>Next</button>
+        </div>
+        </div>
+        </section>
 
-        <section id="sectionThanks"></section>
+        <section class="section " name="sectionEmail" id="sectionEmail"> 
+          <div class="sectionEmail sections">
+            <div aria-hidden="true"></div>
+            <div class="inputContainer">
+          <label for="inputEmail">Submit your E-mail</label>
+          <input type="email" name="inputEmail" id="step2" placeholder="Johnsmith@gmail.com">
+        </div>
+          
+          <div class="divButton">
+          <button>Previous</button>
+          <button>Next</button>
+        </div>
+        </div>
+         </section>
+
+
+        <section class="section " name="sectionPhone" id="sectionPhone" >
+          <div class="sectionPhone sections">
+            <div aria-hidden="true"></div>
+            <div class="inputContainer">
+          <label for="inputPhone">Submit your phonenumber</label>
+          <input type="number" name="inputPhone" id="step3" placeholder="+12 34 56 78 90">
+        </div>
+
+        <div class="divButton">
+          <button>Previous</button>
+          <button>Next</button>
+        </div>
+        </div>
+        </section>
+
+
+        <section class="section" name="sectionMessage" id="sectionMessage">
+          <div class="sectionMessage sections">
+          <textarea name="inputMessage" id="step4"></textarea>
+        </div>
+        </section>
+
+
+        <section class="section sectionThanks" name="sectionThanks" id="sectionThanks">
+          <div>
+         <h3>Thank</h3>
+        </section>
+      </div>
       </form>
     </main>
   </body>
