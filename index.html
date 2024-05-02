@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home</title>
+    <title>Submit form</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <!--
@@ -9,13 +9,16 @@
       Remove all code in `styles.css`!
     -->
     <link rel="stylesheet" href="styles.css" />
+   
     <script type="module" src="script.js"></script>
+    
+    
   </head>
   <body>
     <main>
       <form>
         <section class="section " name="sectionName" id="sectionName">
-          <div class="sectionName sections">
+          <div class="sectionName sections" id="step">
           <div aria-hidden="true"></div>
 
           <div class="inputContainer">
@@ -25,13 +28,13 @@
 
           <div class="divButton">
             <div aria-hidden="true"></div>
-          <button>Next</button>
+          <button id="nextButton">Next</button>
         </div>
         </div>
         </section>
 
         <section class="section " name="sectionEmail" id="sectionEmail"> 
-          <div class="sectionEmail sections">
+          <div class="sectionEmail sections" id="step">
             <div aria-hidden="true"></div>
             <div class="inputContainer">
           <label for="inputEmail">Submit your E-mail</label>
@@ -39,15 +42,15 @@
         </div>
           
           <div class="divButton">
-          <button>Previous</button>
-          <button>Next</button>
+          <button id="previousButton">Previous</button>
+          <button id="nextButton">Next</button>
         </div>
         </div>
          </section>
 
 
         <section class="section " name="sectionPhone" id="sectionPhone" >
-          <div class="sectionPhone sections">
+          <div class="sectionPhone sections" id="step">
             <div aria-hidden="true"></div>
             <div class="inputContainer">
           <label for="inputPhone">Submit your phonenumber</label>
@@ -55,22 +58,28 @@
         </div>
 
         <div class="divButton">
-          <button>Previous</button>
-          <button>Next</button>
+          <button id="previousButton">Previous</button>
+          <button id="nextButton">Next</button>
         </div>
         </div>
         </section>
 
 
         <section class="section" name="sectionMessage" id="sectionMessage">
-          <div class="sectionMessage sections">
-          <textarea name="inputMessage" id="step4"></textarea>
+          <div class="sectionMessage sections" id="step">
+            <div></div>
+          <textarea class="inputMessage" name="inputMessage" id="step4"></textarea>
+        <div></div>
         </div>
+
+        <div>
+          <button id="previousButton">Previous</button>
+          <button id="nextButton">Next</button></div>
         </section>
 
 
         <section class="section sectionThanks" name="sectionThanks" id="sectionThanks">
-          <div>
+          <div id="step">
          <h3>Thank</h3>
         </section>
       </div>
